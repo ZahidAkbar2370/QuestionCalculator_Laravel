@@ -1,0 +1,430 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Aemstel";
+    src: url("./font/Aemstel-Regular.otf");
+
+}
+
+/* --------------Header------------------- */
+
+
+.banner {
+    background: linear-gradient(to right,
+            #a3d55f 70%,
+            #ffff 30%);
+    padding: 10px 30px 80px 30px;
+}
+
+
+.logo {
+    max-width: 150px;
+}
+
+
+.banner-inner-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.header-inner-heading {
+    background-image: url("./img/header-bg.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.banner-inner-wrapper img {
+    width: 100%;
+    z-index: 0;
+
+}
+
+
+.header-inner-heading {
+    font-size: 80px;
+    color: #1b243d;
+    font-family: "Aemstel";
+    text-align: center;
+    line-height: 1;
+}
+
+
+.header-inner-heading img {
+    max-width: 70px;
+}
+
+.lg-heading {
+    font-size: 120px;
+    color: white;
+}
+
+.lg-heading1 {
+    font-size: 90px;
+    color: white;
+}
+
+.lg-heading2 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.lg-heading3 {
+    font-size: 25px;
+    color: rgb(243, 234, 234);
+}
+
+.assessmentBtn{
+    border-radius: 120px !important;
+    font-size: 25px !important;
+    border:  1px solid #f1f1f1;
+    padding: 10px;
+    background-color: #a3d55f;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+    width: 400px;
+}
+
+.header-inner-heading .home {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.termandcondition{
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.score {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.score img {
+    margin-left: 10px;
+}
+
+.wdssm {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    padding: 0px 20px;
+
+}
+
+
+.box-shadow {
+    box-shadow: -5px 25px 45px -6px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: -5px 25px 45px -6px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: -5px 25px 45px -6px rgba(0, 0, 0, 0.46);
+    border-radius: 500px;
+}
+
+
+.wdssm .inner-wrapper {
+    display: grid;
+    grid-template-columns: .3fr .7fr;
+    border-radius: 100px;
+    border: 2px solid #86c100;
+    font-size: 20px;
+    overflow: hidden;
+    background: white;
+
+    box-shadow: 5px 2px 45px -6px rgba(0, 0, 0, 0.46) inset;
+    -webkit-box-shadow: 5px 2px 45px -6px rgba(0, 0, 0, 0.46) inset;
+    -moz-box-shadow: 5px 2px 45px -6px rgba(0, 0, 0, 0.46) inset;
+
+
+    z-index: 10;
+}
+
+.wdssm .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #86c100;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.wdssm .heading span {
+    font-weight: 700;
+    ;
+}
+
+.wdssm .list {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.wdssm ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wdssm ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    margin-left: 25px;
+}
+
+.wdssm ul li span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+.section3 {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    background: url("./img/Rectangle\ 1\ copy.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.items-list {
+    padding: 60px 20px;
+    max-width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+
+.items-list li {
+    margin-left: 25px;
+}
+
+
+
+.tos {
+    max-width: 800px;
+    margin: auto;
+    padding: 50px 100px;
+    background: url('./img/Vector\ footer.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tos h3 {
+    margin-bottom: 12px;
+}
+
+.footer-top {
+    background: #92c94b;
+    padding: 25px 15px;
+    text-align: center;
+
+}
+
+.footer-top img {
+    max-width: 800px;
+}
+
+
+.footer-bottom img {
+    width: 100%;
+    height: 50px;
+}
+
+.introHeading{
+    color: #a3d55f;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.accessHome{
+    font-size: 21px;
+}
+.introductionHeading{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.tableColumns{
+    background-color: #d4efb0;
+    padding: 10px;
+    opacity: 0.5px;
+    max-height: 75px;
+    min-height: 73px;
+}
+
+.tableColumnsNew{
+    background-color: #d4efb0;
+    padding: 10px;
+    opacity: 0.5px;
+    max-height: 175px;
+    min-height: 73px;
+}
+.radioColumn{
+    background-color: #d4efb0;
+    max-height: 75px;
+    min-height: 73px;
+}
+.tableColumns1{
+    background-color: #ebebeb;
+    padding: 10px;
+    opacity: 0.5px;
+    max-height: 75px;
+    min-height: 73px;
+}
+.radioColumn1{
+    background-color: #ebebeb;
+    max-height: 75px;
+    min-height: 73px;
+}
+.radioBTN{
+    height:25px; width:25px; vertical-align: middle;
+}
+@media only screen and (max-width:1024px) {
+    img {
+        width: 100%;
+    }
+
+    .header-inner-heading {
+        font-size: 55px;
+    }
+
+    .lg-heading {
+        font-size: 75px;
+    }
+
+    .lg-heading1 {
+        font-size: 60px;
+    }
+
+    .header-inner-heading img {
+        width: 45px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .banner {
+        background: linear-gradient(to right,
+                #a3d55f 70%,
+                #a3d55f 30%) !important;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .header-inner-heading {
+        font-size: 40px;
+    }
+
+    .lg-heading {
+        font-size: 60px;
+    }
+
+    .header-inner-heading img {
+        width: 30px;
+    }
+
+    .banner-inner-wrapper {
+        grid-template-columns: 1fr;
+        margin-top: 0px !important;
+        grid-gap: 24px;
+    }
+
+    .wdssm {
+        margin-top: 20px;
+    }
+
+    .box-shadow {
+        border-radius: 20px;
+    }
+
+    .wdssm .inner-wrapper {
+        grid-template-columns: 1fr;
+        border-radius: 20px;
+    }
+
+    .items-list {
+        padding: 40px 20px;
+
+    }
+
+    .tos {
+        background: none;
+        padding: 30px 20px;
+    }
+
+    .footer-top {
+        padding: 30px 20px;
+    }
+    .assessmentBtn{
+        width: 350px;
+    }
+
+    .introHeading{
+        font-size: 15px;
+    }
+
+    .section3{
+        font-size: 15px !important;
+    }
+
+    .accessHome{
+        font-size: 15px;
+    }
+
+    #largeScreen{
+        display: none;
+    }
+    #smallScreen{
+        display: block !important;
+    }
+
+    
+    .tableColumns{
+        background-color: white;
+    }
+
+    #question{
+        font-size: 12px  !important;
+        text-align: left !important;
+    }
+/* 
+    .tableColumns1 span{
+        font-size: 12px  !important;
+        text-align: left !important;
+    } */
+
+    .tableColumns1{
+        background-color: white;
+    }
+}
